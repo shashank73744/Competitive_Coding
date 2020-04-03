@@ -1,0 +1,28 @@
+
+/*
+ * Complete the function below.
+ */
+vector <int> get_ranks(vector <string> words) {
+    vector <int> arr[];
+    string str2;
+    strcpy(str2,str);
+    sort(str2.start(),str2.end());
+    for(int i=0;i<26;i++){
+        alphabet[i][0]=0;
+    }
+    for(int i=0;i<str2.length();i++){
+        index = str2[i]-'a';
+        alphabet[index][1]=counter;
+        ++counter;
+    }
+}
+
+int permutation(string str){
+    int alphabet[26],counter=0,index;
+    for(int i=0;i<26;i++){
+        alphabet[i][0]=0;
+    }
+    for(int i=0;i<str.length();i++){
+        
+    }
+} 
